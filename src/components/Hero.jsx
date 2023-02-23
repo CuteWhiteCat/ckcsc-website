@@ -19,7 +19,7 @@ const Hero = () => {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ duration: 0.5, type: easeInOut }}
+                transition={{ duration: 0.2, type: easeInOut }}
                 id="hero_bg"
                 className="background-filter bg-cover bg-center mt-[24px]"
             ></motion.div>

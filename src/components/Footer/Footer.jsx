@@ -61,6 +61,7 @@ const Footer = () => {
                                 className=""
                                 initial="initial"
                                 whileInView="animate"
+                                exit="initial"
                                 variants={{
                                     initial: {
                                         opacity: 0,

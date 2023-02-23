@@ -12,7 +12,7 @@ const SlideInPage = ({ children }) => {
             variants={variants}
             initial="initial"
             animate="animate"
-            transition={{ duration: 1.8, type: "spring", delay: 0.8 }}
+            transition={{ duration: 2.0, type: "spring", delay: 0.8, damping: 15 }}
         >
             <>{children}</>
         </motion.div>

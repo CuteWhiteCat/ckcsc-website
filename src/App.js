@@ -23,8 +23,8 @@ function App() {
                     <Route path="/events" element={<Events />} />
                     <Route path="/sources" element={<Sources />} />
                 </Routes>
+                <Footer />
             </AnimatePresence>
-            <Footer />
         </div>
     );
 }
